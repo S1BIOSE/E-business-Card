@@ -2,6 +2,7 @@ const staticCacheName = 'v14';
 const filesToCache = [
   '/',
   '/index.html',
+  '/CHANGELOG.md',
   '/style.css',
   '/bootstrap.min.css',
   '/bootstrap.bundle.min.js',
