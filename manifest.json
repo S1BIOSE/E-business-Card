@@ -1,20 +1,25 @@
 {
   "orientation":"portrait",
-  "short_name": "S1BIOSE",
-  "name": "S1BIOSE",
+  "short_name": "Mathieu LEBERT",
+  "name": "Mathieu LEBERT",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
-  "description": "Vivre sain - Vivre bien",
+  "description": "Je développe des solutions en ligne, simples d'utilisation, pour permettre aux artisans et aux associations d'être visible aux niveaux national et local.",
   "lang": "fr",
   "icons": [{
-        "src": "icon-512.png",
-        "sizes": "512x512",
+        "src": "icon-144.png",
+        "sizes": "144x144",
         "type": "image/png",
         "purpose": "any maskable"
       }, {
         "src": "icon-192.png",
         "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }, {
+        "src": "icon-512.png",
+        "sizes": "512x512",
         "type": "image/png",
         "purpose": "any maskable"
       }],
