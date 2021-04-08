@@ -56,8 +56,22 @@ body {
   margin-right: 1rem;
 }
 
-.spinner-grow {
+.navbar-collapse .spinner-grow {
   margin-bottom: 10px;
   width: 0.5rem;
   height: 0.5rem;
+}
+
+.navbar-toggler .spinner-grow {
+  position: absolute;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+@media (max-width: 767.98px) {
+
+.navbar-collapse {
+  margin-top: 1rem;
+}
+
 }
