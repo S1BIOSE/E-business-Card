@@ -1,26 +1,29 @@
-const staticCacheName = 'v10';
+const staticCacheName = 'v14';
 const filesToCache = [
   '/',
   '/index.html',
   '/style.css',
-  '/app.js',
   '/bootstrap.min.css',
   '/bootstrap.bundle.min.js',
-  '/favicon.ico',
-  '/logo.png',
+  '/popover.js',
+  '/clipboard.min.js',
+  '/btn-clipboard.js',
+  '/pwa.js',
+  '/feed.js',
+  '/icon-32.png',
   '/icon-144.png',
   '/icon-192.png',
   '/icon-512.png',
-  '/ipadpro1_splash.png',
-  '/ipadpro2_splash.png',
-  '/ipadpro3_splash.png',
-  '/ipad_splash.png',
   '/iphone5_splash.png',
   '/iphone6_splash.png',
   '/iphoneplus_splash.png',
+  '/iphonex_splash.png',
   '/iphonexr_splash.png',
   '/iphonexsmax_splash.png',
-  '/iphonex_splash.png'
+  '/ipad_splash.png',
+  '/ipadpro1_splash.png',
+  '/ipadpro3_splash.png',
+  '/ipadpro2_splash.png'
 ];
 
 self.addEventListener('install', event => {
