@@ -1,16 +1,17 @@
-const staticCacheName = 'v14';
+const staticCacheName = 'v15';
 const filesToCache = [
   '/',
   '/index.html',
   '/CHANGELOG.md',
-  '/style.css',
   '/bootstrap.min.css',
+  '/style.css',
   '/bootstrap.bundle.min.js',
   '/popover.js',
   '/clipboard.min.js',
   '/btn-clipboard.js',
   '/pwa.js',
   '/feed.js',
+  '/network-status.js',
   '/icon-32.png',
   '/icon-144.png',
   '/icon-192.png',
