@@ -11,7 +11,7 @@ const filesToCache = [
   '/btn-clipboard.js',
   '/pwa.js',
   '/feed.js',
-  '/network-status.js',
+  '/toasts.js',
   '/icon-32.png',
   '/icon-144.png',
   '/icon-192.png',
