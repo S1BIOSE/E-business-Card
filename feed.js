@@ -1,4 +1,4 @@
-const FEED_URL = `https://www.s1biose.com/fr/testfeedrss/rss.xml`;
+const FEED_URL = `https://www.s1biose.com/fr/group/4/feed/rss.xml`;
 
 fetch(FEED_URL)
   .then(response => response.text())
@@ -16,7 +16,7 @@ fetch(FEED_URL)
             <div class="flex-grow-1 ms-3">
               <div class="h5">${el.querySelector("title").innerHTML}</div>
               <p class="mb-2">${el.querySelector("description").innerHTML}</p>
-              <p class="mb-0"><small class="text-muted">${el.querySelector("pubDate").innerHTML}</small></p>
+              <p class="mb-0"><small class="text-muted">il y a ${el.querySelector("pubDate").innerHTML}</small></p>
             </div>
           </div>
           <a href="${el.querySelector("link").innerHTML}" title="${el.querySelector("title").innerHTML}" class="stretched-link" target="_blank" rel="noopener noreferrer"></a>
