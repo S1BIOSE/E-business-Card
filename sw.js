@@ -1,4 +1,4 @@
-const staticCacheName = 'v15';
+const staticCacheName = 'v16';
 const filesToCache = [
   '/',
   '/index.html',
@@ -48,12 +48,14 @@ self.addEventListener('activate', event => {
 });
 
 self.addEventListener('fetch', event => {
-  event.respondWith(caches.match(event.request).then(cachedResponse => {
-    if (cachedResponse) {
-      return cachedResponse;
-    }
-    return fetch(event.request);
-  }));
+  event.respondWith(
+    caches.match(event.request).then(cachedResponse => {
+      if (cachedResponse) {
+        return cachedResponse;
+      }
+      return fetch(event.request);
+    })
+  );
 });
 
 self.addEventListener('message', event => {
